@@ -17,14 +17,14 @@
 	</authorization_levels>
 	
  	<masterserver_account> <!-- this is your account that runs the server -->
-		<login>beginerreborn</login> <!-- add login -->
+		<login>beginnerreborn</login> <!-- add login -->
 		<password>7642DRziYC</password> <!-- add password -->
 		<validation_key></validation_key> <!-- if united add last three characters of your player key, empty if nations -->
 	</masterserver_account>
 	
 	<server_options> <!-- Server name and comment -->
-		<name>$69fBBeginner $iReborn</name>
-		<comment>test</comment>
+		<name>69</name>
+		<comment></comment>
 		<hide_server>0</hide_server>	 <!-- value is 0 (always shown), 1 (always hidden), 2 (hidden from nations) -->
 
 		<max_players>10</max_players> <!-- change if necessary -->
