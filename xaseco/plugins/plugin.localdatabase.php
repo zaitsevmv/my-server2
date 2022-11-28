@@ -68,7 +68,7 @@ function ldb_connect($aseco) {
 	$aseco->console("[LocalDB] Try to connect to MySQL server on '{1}' with database '{2}'",
 	                $ldb_settings['mysql']['host'], $ldb_settings['mysql']['database']);
 
-	if (!$ldb_settings['mysql']['connection'] = mysql_connect($ldb_settings['mysql']['host'],
+	if (!$ldb_settings['mysql']['connection'] = mysqli_connect($ldb_settings['mysql']['host'],
 	                                                          $ldb_settings['mysql']['login'],
 	                                                          $ldb_settings['mysql']['password'])) {
 		trigger_error('[LocalDB] Could not authenticate at MySQL server!', E_USER_ERROR);
