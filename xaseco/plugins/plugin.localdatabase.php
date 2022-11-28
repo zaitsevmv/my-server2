@@ -270,7 +270,7 @@ function ldb_reconnect($aseco) {
 		if (!pg_ping($ldb_settings['mysql']['connection'])) {
 			// connection timed out so reconnect
 			pg_close($ldb_settings['mysql']['connection']);
-			if (!$ldb_settings['mysql']['connection'] = pg_connect("host=$ldb_settings['mysql']['host'] port=5432 dbname=$ldb_settings['mysql']['login']")) {
+			if (!$ldb_settings['mysql']['connection'] = pg_connect("host=localhost port=5432 dbname=aseco")) {
 				trigger_error('[LocalDB] Could not authenticate at PostgreSQL server!', E_USER_ERROR);
 			}
 			$aseco->console('[LocalDB] Reconnected to PostgreSQL Server');
