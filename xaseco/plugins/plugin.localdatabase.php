@@ -68,7 +68,7 @@ function ldb_connect($aseco) {
 	$aseco->console("[LocalDB] Try to connect to PostgreSQL server on '{1}' with database '{2}'",
 	                $ldb_settings['mysql']['host'], $ldb_settings['mysql']['database']);
 
-	if (!$ldb_settings['mysql']['connection'] = pg_connect("host=$ldb_settings['mysql']['host'] port=5432 dbname=$ldb_settings['mysql']['login']")) {
+	if (!$ldb_settings['mysql']['connection'] = pg_connect("host=localhost port=5432 dbname=aseco")) {
 		trigger_error('[LocalDB] Could not authenticate at PostgreSQL server!', E_USER_ERROR);
 	}
 
