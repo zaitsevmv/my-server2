@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `rs_times` (
   `challengeID` mediumint(9) NOT NULL default 0,
   `playerID` mediumint(9) NOT NULL default 0,
   `score` int(11) NOT NULL default 0,
-  `date` int(10) unsigned NOT NULL default CURRENT_TIMESTAMP,
+  `date` int(10) unsigned NOT NULL default 0,
   `checkpoints` text NOT NULL,
   PRIMARY KEY (`ID`),
   KEY `playerID` (`playerID`,`challengeID`),
