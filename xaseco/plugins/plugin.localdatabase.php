@@ -68,7 +68,7 @@ function ldb_connect($aseco) {
 	$aseco->console("[LocalDB] Try to connect to PostgreSQL server on '{1}' with database '{2}'",
 	                $ldb_settings['mysql']['host'], $ldb_settings['mysql']['database']);
 
-	if (!$ldb_settings['mysql']['connection'] = pg_connect("host=localhost port=5432 dbname=aseco user=aseco password=")) {
+	if (!$ldb_settings['mysql']['connection'] = pg_connect("host=localhost port=5432 dbname=aseco user=aseco password=Q0!2CFxGejfRKVW7")) {
 		trigger_error('[LocalDB] Could not authenticate at PostgreSQL server!', E_USER_ERROR);
 	}
 
@@ -80,56 +80,49 @@ function ldb_connect($aseco) {
 	$aseco->console('[LocalDB] Checking database structure...');
 
 	// create main tables
-	$query = "CREATE TABLE IF NOT EXISTS `challenges` (
-	            `Id` mediumint(9) NOT NULL auto_increment,
-	            `Uid` varchar(27) NOT NULL default '',
-	            `Name` varchar(100) NOT NULL default '',
-	            `Author` varchar(30) NOT NULL default '',
-	            `Environment` varchar(10) NOT NULL default '',
-	            PRIMARY KEY (`Id`),
-	            UNIQUE KEY `Uid` (`Uid`)
-	          ) ENGINE=MyISAM";
+	$query = "CREATE TABLE IF NOT EXISTS challenges (
+	            Id serial primary key,
+	            Uid varchar(27) NOT NULL default '',
+	            Name varchar(100) NOT NULL default '',
+	            Author varchar(30) NOT NULL default '',
+	            Environment varchar(10) NOT NULL default '',
+	            UNIQUE (Uid)
+	          )";
 	pg_query($query);
 
 	$query = "CREATE TABLE IF NOT EXISTS `players` (
-	            `Id` mediumint(9) NOT NULL auto_increment,
-	            `Login` varchar(50) NOT NULL default '',
-	            `Game` varchar(3) NOT NULL default '',
-	            `NickName` varchar(100) NOT NULL default '',
-	            `Nation` varchar(3) NOT NULL default '',
-	            `UpdatedAt` datetime NOT NULL default '0000-00-00 00:00:00',
-	            `Wins` mediumint(9) NOT NULL default 0,
-	            `TimePlayed` int(10) unsigned NOT NULL default 0,
-	            `TeamName` char(60) NOT NULL default '',
-	            PRIMARY KEY (`Id`),
-	            UNIQUE KEY `Login` (`Login`),
-	            KEY `Game` (`Game`)
-	          ) ENGINE=MyISAM";
+	            Id serial primary key,
+	            Login varchar(50) NOT NULL default '',
+	            Game varchar(3) NOT NULL default '',
+	            NickName varchar(100) NOT NULL default '',
+	            Nation varchar(3) NOT NULL default '',
+	            UpdatedAt timestamp without time zone default (now() at time zone 'utc'),
+	            Wins mediumint NOT NULL default 0,
+	            TimePlayed int unsigned NOT NULL default 0,
+	            TeamName varchar(60) NOT NULL default '',
+	            UNIQUE (Login)
+	          )";
 	pg_query($query);
 
-	$query = "CREATE TABLE IF NOT EXISTS `records` (
-	            `Id` int(11) NOT NULL auto_increment,
-	            `ChallengeId` mediumint(9) NOT NULL default 0,
-	            `PlayerId` mediumint(9) NOT NULL default 0,
-	            `Score` int(11) NOT NULL default 0,
-	            `Date` datetime NOT NULL default '0000-00-00 00:00:00',
-	            `Checkpoints` text NOT NULL,
-	            PRIMARY KEY (`Id`),
-	            UNIQUE KEY `PlayerId` (`PlayerId`,`ChallengeId`),
-	            KEY `ChallengeId` (`ChallengeId`)
-	          ) ENGINE=MyISAM";
+	$query = "CREATE TABLE IF NOT EXISTS records (
+	            Id serial primary key,
+	            ChallengeId int NOT NULL default 0,
+	            PlayerId int NOT NULL default 0,
+	            Score int NOT NULL default 0,
+	            Date timestamp without time zone default (now() at time zone 'utc'),
+	            Checkpoints text NOT NULL,
+	            UNIQUE (PlayerId,ChallengeId)
+	          ) ";
 	pg_query($query);
 
-	$query = "CREATE TABLE IF NOT EXISTS `players_extra` (
-	            `playerID` mediumint(9) NOT NULL default 0,
-	            `cps` smallint(3) NOT NULL default -1,
-	            `dedicps` smallint(3) NOT NULL default -1,
-	            `donations` mediumint(9) NOT NULL default 0,
-	            `style` varchar(20) NOT NULL default '',
-	            `panels` varchar(255) NOT NULL default '',
-	            PRIMARY KEY (`playerID`),
-	            KEY `donations` (`donations`)
-	          ) ENGINE=MyISAM";
+	$query = "CREATE TABLE IF NOT EXISTS players_extra (
+	            playerID mediumint NOT NULL default 0,
+	            cps smallint NOT NULL default -1,
+	            dedicps smallint NOT NULL default -1,
+	            donations mediumint NOT NULL default 0,
+	            style varchar(20) NOT NULL default '',
+	            panels varchar(255) NOT NULL default ''
+	          )";
 	pg_query($query);
 
 	// check for main tables
