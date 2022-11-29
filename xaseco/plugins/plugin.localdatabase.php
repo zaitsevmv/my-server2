@@ -82,24 +82,24 @@ function ldb_connect($aseco) {
 	// create main tables
 	$query = "CREATE TABLE IF NOT EXISTS challenges (
 	            Id serial primary key,
-	            Uid varvarchar(27) NOT NULL default '',
-	            Name varvarchar(100) NOT NULL default '',
-	            Author varvarchar(30) NOT NULL default '',
-	            Environment varvarchar(10) NOT NULL default '',
+	            Uid varchar(27) NOT NULL default '',
+	            Name varchar(100) NOT NULL default '',
+	            Author varchar(30) NOT NULL default '',
+	            Environment varchar(10) NOT NULL default '',
 	            UNIQUE (Uid)
 	          )";
 	pg_query($query);
 
 	$query = "CREATE TABLE IF NOT EXISTS players (
 	            Id serial primary key,
-	            Login varvarchar(50) NOT NULL default '',
-	            Game varvarchar(3) NOT NULL default '',
-	            NickName varvarchar(100) NOT NULL default '',
-	            Nation varvarchar(3) NOT NULL default '',
+	            Login varchar(50) NOT NULL default '',
+	            Game varchar(3) NOT NULL default '',
+	            NickName varchar(100) NOT NULL default '',
+	            Nation varchar(3) NOT NULL default '',
 	            UpdatedAt timestamp without time zone default (now() at time zone 'utc'),
 	            Wins int NOT NULL default 0,
 	            TimePlayed int  NOT NULL default 0,
-	            TeamName varvarchar(60) NOT NULL default '',
+	            TeamName varchar(60) NOT NULL default '',
 	            UNIQUE (Login)
 	          )";
 	pg_query($query);
@@ -120,8 +120,8 @@ function ldb_connect($aseco) {
 	            cps smallint NOT NULL default -1,
 	            dedicps smallint NOT NULL default -1,
 	            donations int NOT NULL default 0,
-	            style varvarchar(20) NOT NULL default '',
-	            panels varvarchar(255) NOT NULL default ''
+	            style varchar(20) NOT NULL default '',
+	            panels varchar(255) NOT NULL default ''
 	          )";
 	pg_query($query);
 
