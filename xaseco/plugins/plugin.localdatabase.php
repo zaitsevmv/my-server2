@@ -82,24 +82,24 @@ function ldb_connect($aseco) {
 	// create main tables
 	$query = "CREATE TABLE IF NOT EXISTS challenges (
 	            Id serial primary key,
-	            Uid varchar(27) NOT NULL default '',
-	            Name varchar(100) NOT NULL default '',
-	            Author varchar(30) NOT NULL default '',
-	            Environment varchar(10) NOT NULL default '',
+	            Uid varvarchar(27) NOT NULL default '',
+	            Name varvarchar(100) NOT NULL default '',
+	            Author varvarchar(30) NOT NULL default '',
+	            Environment varvarchar(10) NOT NULL default '',
 	            UNIQUE (Uid)
 	          )";
 	pg_query($query);
 
-	$query = "CREATE TABLE IF NOT EXISTS `players` (
+	$query = "CREATE TABLE IF NOT EXISTS players (
 	            Id serial primary key,
-	            Login varchar(50) NOT NULL default '',
-	            Game varchar(3) NOT NULL default '',
-	            NickName varchar(100) NOT NULL default '',
-	            Nation varchar(3) NOT NULL default '',
+	            Login varvarchar(50) NOT NULL default '',
+	            Game varvarchar(3) NOT NULL default '',
+	            NickName varvarchar(100) NOT NULL default '',
+	            Nation varvarchar(3) NOT NULL default '',
 	            UpdatedAt timestamp without time zone default (now() at time zone 'utc'),
-	            Wins mediumint NOT NULL default 0,
-	            TimePlayed int unsigned NOT NULL default 0,
-	            TeamName varchar(60) NOT NULL default '',
+	            Wins int NOT NULL default 0,
+	            TimePlayed int  NOT NULL default 0,
+	            TeamName varvarchar(60) NOT NULL default '',
 	            UNIQUE (Login)
 	          )";
 	pg_query($query);
@@ -116,12 +116,12 @@ function ldb_connect($aseco) {
 	pg_query($query);
 
 	$query = "CREATE TABLE IF NOT EXISTS players_extra (
-	            playerID mediumint NOT NULL default 0,
+	            playerID int NOT NULL default 0,
 	            cps smallint NOT NULL default -1,
 	            dedicps smallint NOT NULL default -1,
-	            donations mediumint NOT NULL default 0,
-	            style varchar(20) NOT NULL default '',
-	            panels varchar(255) NOT NULL default ''
+	            donations int NOT NULL default 0,
+	            style varvarchar(20) NOT NULL default '',
+	            panels varvarchar(255) NOT NULL default ''
 	          )";
 	pg_query($query);
 
@@ -138,116 +138,6 @@ function ldb_connect($aseco) {
 	$check[4] = in_array('players_extra', $tables);
 	if (!($check[1] && $check[2] && $check[3] && $check[4])) {
 		trigger_error('[LocalDB] Table structure incorrect!  Use localdb/aseco.sql & extra.sql to correct this', E_USER_ERROR);
-	}
-
-	// enlarge challenges 'Name' colum
-	$result = pg_query('DESC challenges Name');
-	$row = pg_fetch_row($result);
-	pg_free_result($result);
-	if ($row[1] != 'varchar(100)') {
-		$aseco->console("[LocalDB] Alter 'challenges' column 'Name'...");
-		pg_query("ALTER TABLE challenges MODIFY Name varchar(100) NOT NULL default ''");
-	}
-
-	// reduce challenges 'Environment' colum
-	$result = pg_query('DESC challenges Environment');
-	$row = pg_fetch_row($result);
-	pg_free_result($result);
-	if ($row[1] != 'varchar(10)') {
-		$aseco->console("[LocalDB] Alter 'challenges' column 'Environment'...");
-		pg_query("ALTER TABLE challenges MODIFY Environment varchar(10) NOT NULL default ''");
-	}
-
-	// add players 'TeamName' column
-	$fields = array();
-	$result = pg_query('SHOW COLUMNS FROM players');
-	while ($row = pg_fetch_row($result))
-		$fields[] = $row[0];
-	pg_free_result($result);
-	if (!in_array('TeamName', $fields)) {
-		$aseco->console("[LocalDB] Add 'players' column 'TeamName'...");
-		pg_query("ALTER TABLE players ADD TeamName char(60) NOT NULL default ''");
-	}
-
-	// enlarge players 'NickName' & 'TimePlayed' columns
-	$result = pg_query('DESC players NickName');
-	$row = pg_fetch_row($result);
-	pg_free_result($result);
-	if ($row[1] != 'varchar(100)') {
-		$aseco->console("[LocalDB] Alter 'players' column 'NickName'...");
-		pg_query("ALTER TABLE players MODIFY NickName varchar(100) NOT NULL default ''");
-	}
-	$result = pg_query('DESC players TimePlayed');
-	$row = pg_fetch_row($result);
-	pg_free_result($result);
-	if ($row[1] != 'int(10) unsigned') {
-		$aseco->console("[LocalDB] Alter 'players' column 'TimePlayed'...");
-		pg_query("ALTER TABLE players MODIFY TimePlayed int(10) unsigned NOT NULL default 0");
-	}
-
-	// enlarge records 'Id' & 'Score' columns
-	$result = pg_query('DESC records Id');
-	$row = pg_fetch_row($result);
-	pg_free_result($result);
-	if ($row[1] != 'int(11)') {
-		$aseco->console("[LocalDB] Alter 'records' column 'Id'...");
-		pg_query('ALTER TABLE records MODIFY Id int(11) auto_increment');
-	}
-	$result = pg_query('DESC records Score');
-	$row = pg_fetch_row($result);
-	pg_free_result($result);
-	if ($row[1] != 'int(11)') {
-		$aseco->console("[LocalDB] Alter 'records' column 'Score'...");
-		pg_query("ALTER TABLE records MODIFY Score int(11) NOT NULL default 0");
-	}
-
-	// add records 'Checkpoints' column
-	$fields = array();
-	$result = pg_query('SHOW COLUMNS FROM records');
-	while ($row = pg_fetch_row($result))
-		$fields[] = $row[0];
-	pg_free_result($result);
-	if (!in_array('Checkpoints', $fields)) {
-		$aseco->console("[LocalDB] Add 'records' column 'Checkpoints'...");
-		pg_query("ALTER TABLE records ADD Checkpoints text NOT NULL");
-	}
-
-	// change records old 'ChallengeId' key into new 'PlayerId' key and
-	//  add records new 'ChallengeId' key
-	$fields = array('PlayerId' => 0, 'ChallengeId' => 0);
-	$result = pg_query('SHOW INDEX FROM records');
-	while ($row = pg_fetch_row($result)) {
-		if (isset($fields[$row[2]]))
-			$fields[$row[2]]++;
-	}
-	pg_free_result($result);
-	if ($fields['ChallengeId'] == 2 && $fields['PlayerId'] == 0) {
-		$aseco->console("[LocalDB] Drop 'records' key 'ChallengeId'...");
-		pg_query("ALTER TABLE records DROP KEY ChallengeId");
-		$aseco->console("[LocalDB] Add 'records' key 'PlayerId'...");
-		pg_query("ALTER TABLE records ADD UNIQUE KEY PlayerId (PlayerId, ChallengeId)");
-		$aseco->console("[LocalDB] Add 'records' key 'ChallengeId'...");
-		pg_query("ALTER TABLE records ADD KEY ChallengeId (ChallengeId)");
-	}
-
-	// change players_extra 'playerID' key into primary key and
-	//  add players_extra 'donations' key
-	$fields = array();
-	$result = pg_query('SHOW INDEX FROM players_extra');
-	while ($row = pg_fetch_row($result))
-		$fields[] = $row[2];
-	pg_free_result($result);
-	if (in_array('playerID', $fields)) {
-		$aseco->console("[LocalDB] Drop 'players_extra' key 'playerID'...");
-		pg_query("ALTER TABLE players_extra DROP KEY playerID");
-	}
-	if (!in_array('PRIMARY', $fields)) {
-		$aseco->console("[LocalDB] Add 'players_extra' primary key 'playerID'...");
-		pg_query("ALTER TABLE players_extra ADD PRIMARY KEY (playerID)");
-	}
-	if (!in_array('donations', $fields)) {
-		$aseco->console("[LocalDB] Add 'players_extra' key 'donations'...");
-		pg_query("ALTER TABLE players_extra ADD KEY donations (donations)");
 	}
 
 	$aseco->console('[LocalDB] ...Structure OK!');
