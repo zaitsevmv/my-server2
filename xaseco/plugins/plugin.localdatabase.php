@@ -82,24 +82,24 @@ function ldb_connect($aseco) {
 	// create main tables
 	$query = "CREATE TABLE IF NOT EXISTS challenges (
 	            Id serial primary key,
-	            Uid varchar(27) NOT NULL default '',
-	            Name varchar(100) NOT NULL default '',
-	            Author varchar(30) NOT NULL default '',
-	            Environment varchar(10) NOT NULL default '',
+	            Uid varvarchar(27) NOT NULL default '',
+	            Name varvarchar(100) NOT NULL default '',
+	            Author varvarchar(30) NOT NULL default '',
+	            Environment varvarchar(10) NOT NULL default '',
 	            UNIQUE (Uid)
 	          )";
 	pg_query($query);
 
 	$query = "CREATE TABLE IF NOT EXISTS players (
 	            Id serial primary key,
-	            Login varchar(50) NOT NULL default '',
-	            Game varchar(3) NOT NULL default '',
-	            NickName varchar(100) NOT NULL default '',
-	            Nation varchar(3) NOT NULL default '',
+	            Login varvarchar(50) NOT NULL default '',
+	            Game varvarchar(3) NOT NULL default '',
+	            NickName varvarchar(100) NOT NULL default '',
+	            Nation varvarchar(3) NOT NULL default '',
 	            UpdatedAt timestamp without time zone default (now() at time zone 'utc'),
 	            Wins int NOT NULL default 0,
 	            TimePlayed int  NOT NULL default 0,
-	            TeamName varchar(60) NOT NULL default '',
+	            TeamName varvarchar(60) NOT NULL default '',
 	            UNIQUE (Login)
 	          )";
 	pg_query($query);
@@ -120,25 +120,10 @@ function ldb_connect($aseco) {
 	            cps smallint NOT NULL default -1,
 	            dedicps smallint NOT NULL default -1,
 	            donations int NOT NULL default 0,
-	            style varchar(20) NOT NULL default '',
-	            panels varchar(255) NOT NULL default ''
+	            style varvarchar(20) NOT NULL default '',
+	            panels varvarchar(255) NOT NULL default ''
 	          )";
 	pg_query($query);
-
-	// check for main tables
-	$tables = array();
-	$res = pg_query('SHOW TABLES');
-	while ($row = pg_fetch_row($res))
-		$tables[] = $row[0];
-	pg_free_result($res);
-	$check = array();
-	$check[1] = in_array('challenges', $tables);
-	$check[2] = in_array('players', $tables);
-	$check[3] = in_array('records', $tables);
-	$check[4] = in_array('players_extra', $tables);
-	if (!($check[1] && $check[2] && $check[3] && $check[4])) {
-		trigger_error('[LocalDB] Table structure incorrect!  Use localdb/aseco.sql & extra.sql to correct this', E_USER_ERROR);
-	}
 
 	$aseco->console('[LocalDB] ...Structure OK!');
 }  // ldb_connect
