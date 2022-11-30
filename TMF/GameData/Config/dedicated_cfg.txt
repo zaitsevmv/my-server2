@@ -23,14 +23,14 @@
 	</masterserver_account>
 	
 	<server_options> <!-- Server name and comment -->
-		<name>69</name>
-		<comment></comment>
+		<name>$F00Beginner $i$fffREBORN</name>
+		<comment>test</comment>
 		<hide_server>0</hide_server>	 <!-- value is 0 (always shown), 1 (always hidden), 2 (hidden from nations) -->
 
-		<max_players>10</max_players> <!-- change if necessary -->
+		<max_players>16</max_players> <!-- change if necessary -->
 		<password></password> <!-- change if necessary -->
 		
-		<max_spectators>16</max_spectators> <!-- change if necessary -->
+		<max_spectators>10</max_spectators> <!-- change if necessary -->
 		<password_spectator></password_spectator> <!-- change if necessary -->
 		
 		<ladder_mode>forced</ladder_mode>				<!-- value between 'inactive', 'forced' (or '0', '1') -->
