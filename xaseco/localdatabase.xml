@@ -2,8 +2,8 @@
 <settings>
 	<!-- MySQL Server Settings -->
 	<mysql_server>localhost</mysql_server>
-	<mysql_login>aseco</mysql_login>  		<!-- edit this -->
-	<mysql_password></mysql_password>  <!-- edit this -->
+	<mysql_login>nativeuser</mysql_login>  		<!-- edit this -->
+	<mysql_password>Q0!2CFxGejfRKVW6</mysql_password>  <!-- edit this -->
 	<mysql_database>aseco</mysql_database>
 	<!-- Do you want XASECO to display newly driven records? -->
 	<display>true</display>
