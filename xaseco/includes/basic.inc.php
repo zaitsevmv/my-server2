@@ -217,7 +217,7 @@ function formatText($text) {
  */
 function quotedString($input) {
 
-	return "'" . $input . "'";
+	return "'" . mysql_real_escape_string($input) . "'";
 }  // quotedString
 
 /**
