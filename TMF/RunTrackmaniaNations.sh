@@ -1,1 +1,1 @@
-./TrackmaniaServer /game_settings=MatchSettings/Nations/NationsWhite.txt /dedicated_cfg=dedicated_cfg.txt
+./TrackmaniaServer /game_settings=MatchSettings/Nations/beginner.txt /dedicated_cfg=dedicated_cfg.txt

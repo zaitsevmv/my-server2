@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<playlist>
+	<gameinfos>
+		<game_mode>1</game_mode>
+		<chat_time>10000</chat_time>
+		<finishtimeout>1</finishtimeout>
+		<allwarmupduration>0</allwarmupduration>
+		<disablerespawn>0</disablerespawn>
+		<forceshowallopponents>0</forceshowallopponents>
+		<rounds_pointslimit>30</rounds_pointslimit>
+		<rounds_usenewrules>0</rounds_usenewrules>
+		<rounds_forcedlaps>0</rounds_forcedlaps>
+		<rounds_pointslimitnewrules>5</rounds_pointslimitnewrules>
+		<team_pointslimit>50</team_pointslimit>
+		<team_maxpoints>6</team_maxpoints>
+		<team_usenewrules>0</team_usenewrules>
+		<team_pointslimitnewrules>5</team_pointslimitnewrules>
+		<timeattack_limit>360000</timeattack_limit>
+		<timeattack_synchstartperiod>0</timeattack_synchstartperiod>
+		<laps_nblaps>5</laps_nblaps>
+		<laps_timelimit>0</laps_timelimit>
+		<cup_pointslimit>100</cup_pointslimit>
+		<cup_roundsperchallenge>5</cup_roundsperchallenge>
+		<cup_nbwinners>3</cup_nbwinners>
+		<cup_warmupduration>2</cup_warmupduration>
+	</gameinfos>
+
+	<hotseat>
+		<game_mode>0</game_mode>
+		<time_limit>300000</time_limit>
+		<rounds_count>5</rounds_count>
+	</hotseat>
+
+	<filter>
+		<is_lan>1</is_lan>
+		<is_internet>1</is_internet>
+		<is_solo>0</is_solo>
+		<is_hotseat>0</is_hotseat>
+		<sort_index>1000</sort_index>
+		<random_map_order>0</random_map_order>
+		<force_default_gamemode>0</force_default_gamemode>
+	</filter>
+
+	<startindex>0</startindex>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100540.036.Gbx</file>
+		<ident>DeCTWhi7YUzBsgn_1wF3KnrPmx7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095720.629.Gbx</file>
+		<ident>NOUUiWj_e2Vm3wHlUBnVf7_qNVb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095722.897.Gbx</file>
+		<ident>DqDXlf2f6spGz2vjZV3pUbQorw8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095712.290.Gbx</file>
+		<ident>4NoCJIm3LkeLwXoRCWXpsSYaWSj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\222.Challenge.Gbx</file>
+		<ident>ew8bVzbqi1zObOCFi2J3ixZ8o9m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\222.Challenge (1).Gbx</file>
+		<ident>2FWyz2933qEUS6KftvfqQ6OThdl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095242.240.Gbx</file>
+		<ident>XFO197YxbbptCQ3cPIdWCwu9iCd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100545.472.Gbx</file>
+		<ident>A6GVz_ZdjVl0S5CFm09vTMsNuGl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095539.220.Gbx</file>
+		<ident>FqoIKlf_BguZ5W71pVqr6fMGb13</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100220.181.Gbx</file>
+		<ident>_AZH86Fu8sHghg8ERYwbvUoLSvd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095239.866.Gbx</file>
+		<ident>vPZ6ZkNaLEs6kCV8X0xiGz5X_hi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (98).Gbx</file>
+		<ident>gw1_GYsSEeIcZDF_qwBdUgxMXOa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100127.350.Gbx</file>
+		<ident>P7dAucPMFuFQ7ylX7ol9ogRYOj4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100547.281.Gbx</file>
+		<ident>YLu4EkjsLeLe42ghhemGW1yYkRi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095846.626.Gbx</file>
+		<ident>pG865gWQg3sgdw6f_FlXptU3_vd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095703.157.Gbx</file>
+		<ident>5KYz82NRpc1ZSPipYu1StyONON0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100415.727.Gbx</file>
+		<ident>dQipW43rCzGcDqeqf4bpzO8Qi3e</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095934.085.Gbx</file>
+		<ident>y8IbTMV2EIUFs6OYwgERazw4ead</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095626.157.Gbx</file>
+		<ident>wKzv2OfGlvLpcBqlsNv4f75PJ54</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100152.155.Gbx</file>
+		<ident>Q3qlt_H4lyYz8KqAdLVFMTJ1cFh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100037.858.Gbx</file>
+		<ident>bEQ3hOzUrnnIRP3OdMJSm946smj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095848.406.Gbx</file>
+		<ident>cp3yKUdqzUudfXt4lyjBJNZS5k5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095237.807.Gbx</file>
+		<ident>7ZZfSsjRXEz5R215RWEWdR2prg3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100617.476.Gbx</file>
+		<ident>b0MzT4PnWc2rEvX6Hl_888p8Y7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100656.660.Gbx</file>
+		<ident>JpYUwefcI8iw1RmurklaFO_EMfa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095500.943.Gbx</file>
+		<ident>OlGqeV9h188_K_u3bo5DCpReSW2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100521.737.Gbx</file>
+		<ident>Z2WhdCUPdWCFw1LQI9I6rksVHQl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095607.431.Gbx</file>
+		<ident>diEBc5sOv1tK1dj1A339Qep7iuk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095738.648.Gbx</file>
+		<ident>pTBVoyTwH9aIAR8wuRrvz4E7YXh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (65).Gbx</file>
+		<ident>KIHWictTxSuAGW2A_0mj0oeX2o7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095858.274.Gbx</file>
+		<ident>JWWc8ikmFwgbu3NqzEt75six3Jh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (82).Gbx</file>
+		<ident>4Xl9VmejjMXu4Pt3LS4lskT3hNm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095249.916.Gbx</file>
+		<ident>AueO2uklVZAfHnjbwgGTRL_iPie</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (36).Gbx</file>
+		<ident>L98hgXx2sEC2anYDYLoUB0tMnEc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (88).Gbx</file>
+		<ident>4wI9KTYi3Ws3Mq_5ky0rDabzXX8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100344.941.Gbx</file>
+		<ident>e2YfHWXIQ0sxhxRtUllYID2WT8b</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (79).Gbx</file>
+		<ident>6w7QbCr6aqL4vGiCWki9LsxuzMk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100817.397.Gbx</file>
+		<ident>JDyhYKWei8Aa2B8bR7XniXUuW6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095251.914.Gbx</file>
+		<ident>AOa4s3tNyl3hoLmbYStF7NyQWse</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100801.079.Gbx</file>
+		<ident>LdmL3HyT7q3Tkz7aEaiUDQzcxx</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (90).Gbx</file>
+		<ident>LQJFwMiUc8aRsOXVX9m_jZT1rFc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (68).Gbx</file>
+		<ident>72F0ml3OSOxGpGKdP2p1C13rFCm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (1).Gbx</file>
+		<ident>rvMYvIp6ePrPB9rPOVtKyLSTmAk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100321.799.Gbx</file>
+		<ident>VPJ8UKoIzGp3qZy90xMoj0Gy2vg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (26).Gbx</file>
+		<ident>CZSf0FFDPTu2EusspIOwOZp56E8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (67).Gbx</file>
+		<ident>omy3Up3y2egM082dRO4IuNlL3Pe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100203.778.Gbx</file>
+		<ident>P9l3k98Bn_tn57UO2JG_atgaGK7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095718.332.Gbx</file>
+		<ident>zVrwZrGHeeNatE2VvCWdf4lb8h8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100140.300.Gbx</file>
+		<ident>p2ikPqHg4GMg9YkqJxlcZmrAX69</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095424.575.Gbx</file>
+		<ident>F4NOJMggQL7XouyXKX5RWYoSsAl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100137.980.Gbx</file>
+		<ident>3bdVUnEE6CmxuZqdD9oaGedbqA0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (89).Gbx</file>
+		<ident>VrZW12ThA0pMT2Pk8CxQtQOTH6h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095938.878.Gbx</file>
+		<ident>SKg1r0ugousmpAQMhg98trk2rNc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100707.314.Gbx</file>
+		<ident>81f_gtxxEtBcPVqlSUg9cw_BsM7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095621.412.Gbx</file>
+		<ident>HBsfzb32jqxuRhtkz8M4rHIygd3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (74).Gbx</file>
+		<ident>4aBWsKZ_U4dWlxWf0Zhprpquy_8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100023.066.Gbx</file>
+		<ident>y4H8iIKUrDt_QwowM5GZrIUJgoe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100000.002.Gbx</file>
+		<ident>4F0yTeVPF88V_4Xoh2I66gbcqug</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095643.136.Gbx</file>
+		<ident>blXIUEvMhoMjRiC_4hfpo45jSn6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095319.002.Gbx</file>
+		<ident>5uih9N9zqMB64Pz8_qP429RaKHi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100212.661.Gbx</file>
+		<ident>QHPoRnxrezr4_6W4iAF06_1WWSm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095422.773.Gbx</file>
+		<ident>h0SY8NXqhMaou983_tGaF8hyX23</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100654.367.Gbx</file>
+		<ident>XGdEZtWRHBhkaIPBTpuV2BuOCfa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100030.525.Gbx</file>
+		<ident>aH0hRY4Ssu8CCqR1nwVIMaUNMY2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100442.684.Gbx</file>
+		<ident>5HkWqJ_DLHhddYXU0QUkov5IEC3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100536.198.Gbx</file>
+		<ident>vz4KsKJKjmuDYmqmUAilvKHXMI5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100700.927.Gbx</file>
+		<ident>_U167mE062OnZVYld4QXsXK1Ho1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (78).Gbx</file>
+		<ident>XjNX4Cf8ptWa2PR3bPSTZUXKN_5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095434.439.Gbx</file>
+		<ident>yj5SxeNskOnO7VhVx6FziGExnq2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095640.963.Gbx</file>
+		<ident>DFwoAd9pDA6ARLp1cBfZZAe9hfb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (29).Gbx</file>
+		<ident>v4fZobgJeyriTeMTda__KWPOxNa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100253.718.Gbx</file>
+		<ident>D19GhNQoOtGeHn47v_XU9A_Xx21</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100649.116.Gbx</file>
+		<ident>62Cwsm84a6AqtDH4RUwkavluhM4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge.Gbx</file>
+		<ident>qB5dtjq8SV7x0nZ3hCzBfT47xJ0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100346.756.Gbx</file>
+		<ident>jd03dFb2AmWNkpAueHqBbIHSyVb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100348.459.Gbx</file>
+		<ident>mLMUd7gBNkrjnJGNRICvnzKwuH4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100020.478.Gbx</file>
+		<ident>gmgS4Pw_x8qXJqATOzvo5CqBcB2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100311.872.Gbx</file>
+		<ident>N0E7MkJ5OXya5TTJlDX6ZPoFIC6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095557.891.Gbx</file>
+		<ident>9YylxN9kCRJI6xbnKA7kRYv_d_3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095420.758.Gbx</file>
+		<ident>qdsBYm4497j2NLa3XvhqhiCHm_i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (42).Gbx</file>
+		<ident>i1ocqish4FI8CONRdCB392S498h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100245.544.Gbx</file>
+		<ident>CWjYDdYSR9AtsFLJrg928FksVjc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (4).Gbx</file>
+		<ident>6YO6CYTStNYI6WMpy_qf0mDAx58</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (49).Gbx</file>
+		<ident>G6ZeeBwBJY0aH_oC95ONKOsG3U</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (20).Gbx</file>
+		<ident>6R8SvAl4ZEQzyIrKE_3_90Izb6j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100541.919.Gbx</file>
+		<ident>DHvWDLhtBawRhYKx3slh7UunLS0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (48).Gbx</file>
+		<ident>C79OiLAya9kcBpzlmy_HHo5oi_5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (45).Gbx</file>
+		<ident>__GZ_G6kKQWVcawt1p8OJCvEcLa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100133.783.Gbx</file>
+		<ident>zHqTrnTfA4cMup5C9hGvl_nfnRb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100237.196.Gbx</file>
+		<ident>SisaIsApbKxTUqELyxz5v1sZ9kl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095343.452.Gbx</file>
+		<ident>rPTKFzBrG0P5OX9ESBtmOMUsQei</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095616.535.Gbx</file>
+		<ident>U_IyrdFl4VlvapZsGD5WkmUVSUg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (17).Gbx</file>
+		<ident>SZHXA16Q0rRy1qW3Q7ksZYZisQg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (63).Gbx</file>
+		<ident>X6R085pn78CluiGIPKHf96EjeMd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095354.527.Gbx</file>
+		<ident>JsgxshtEceFASVdtwq7b8bpkvu1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (22).Gbx</file>
+		<ident>IRsGeHolpHcIAYfyfNh3iYdGFeg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095751.658.Gbx</file>
+		<ident>ulRLbviqm8aK2qvQ2nY0nRsrdm2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100534.486.Gbx</file>
+		<ident>52zV1fyUSFnhZJwcC992p8OMKa7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (80).Gbx</file>
+		<ident>d9Q2V8dnKPLSTzG_W5ZiePy4_6g</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100014.473.Gbx</file>
+		<ident>T2Q7y8NNRctsWrdD9vLEtLpVONa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100226.328.Gbx</file>
+		<ident>aCXBH974kgUnjUdD_B5SCRHHmSf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095411.434.Gbx</file>
+		<ident>FwKm6YomKSGIGsGyw0ZbK3Z6al0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100512.249.Gbx</file>
+		<ident>XREgLEkzPrhKkPkWCDm6vgwkch5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095340.184.Gbx</file>
+		<ident>wS5JDOQM6aFZCopzEosNU5ILai0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (93).Gbx</file>
+		<ident>G_XtiKtFKytcX9KZz6Y0QLB5NB</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100001.956.Gbx</file>
+		<ident>8Xwm5dPYgykboY6Il2lil0LTgxc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100241.823.Gbx</file>
+		<ident>jNSUpgR98hwW4dbm6NfY_WYyk8e</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100401.263.Gbx</file>
+		<ident>a4BoMNlsaqh7LRaD0wI88tG4cL2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100353.829.Gbx</file>
+		<ident>ab5OIyed2XO_c5fHj8EucxBYVEa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095233.144.Gbx</file>
+		<ident>GlUnOS5pCXImF63ySuqrRYjJ687</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (62).Gbx</file>
+		<ident>K4oPd_j9wzZnURWRDPzYYDEDKP9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100419.822.Gbx</file>
+		<ident>Eg35MQlWRkgNEgAffQhXfL6_J_n</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095926.106.Gbx</file>
+		<ident>E2JSf5btbs1exUQHKvvghEuo10l</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100507.934.Gbx</file>
+		<ident>pTJOHOEZt5LYlr9SMfn7sRFiOL</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (38).Gbx</file>
+		<ident>f7_cQUmWR_P1IRal6hAv5zRMyI1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100330.999.Gbx</file>
+		<ident>XSm5rWrHTET8wenaKHYj0kC_aG9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095542.322.Gbx</file>
+		<ident>qN3mz4hTHshJAhprlLD2iB8Kvz2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100705.128.Gbx</file>
+		<ident>5gCr5oV8vx6QyWju4CZil1A8xcg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095245.070.Gbx</file>
+		<ident>58UBmosazHG96n0Fe6vtfNnkAnk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095323.230.Gbx</file>
+		<ident>_LkjTmtqoJEsI91zUjV5F8ASVNb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100243.742.Gbx</file>
+		<ident>ZHvFE9yQqQn_8yth4jZ3zAvZ4Gf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100520.024.Gbx</file>
+		<ident>CJIZ_1xX2ZpS55LfXfISuhInrS8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100200.722.Gbx</file>
+		<ident>FkZQxTPPjJZMuro4NksUx9Crirh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095603.008.Gbx</file>
+		<ident>Z2XHCuZYoAHMpZcLMTXqlPTsn5g</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (70).Gbx</file>
+		<ident>YNIMSBkdyKYzhiawQ8W17RBOLn5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100615.384.Gbx</file>
+		<ident>ya5b4pCcgpq3HaQpKCsY8k3RbVh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100035.372.Gbx</file>
+		<ident>zJiUhlgS3aO1KOrq9bYGP_IKA47</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095409.171.Gbx</file>
+		<ident>Tf3kwy15z81IYegoFqjRtUUw__c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100405.421.Gbx</file>
+		<ident>q1bMHT1A5h5p3TgsNUoib_ut0t0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095653.306.Gbx</file>
+		<ident>T4elq13IReYm49bGTffKHYQ9XOk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100751.146.Gbx</file>
+		<ident>fM0Xsfb1tqWWK8evFq7ERaFieMb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100142.166.Gbx</file>
+		<ident>UdozgV4jtdD6WuDfwKjN69P5f7h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (24).Gbx</file>
+		<ident>EwC0NNydbmtStsD6mKeFfPbZME5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (40).Gbx</file>
+		<ident>yJMIObhUZpLNVovhNV_w7AXtdnc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100025.175.Gbx</file>
+		<ident>uvw_fiWBJ5aBBb_jUGnh7zWftM4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095627.900.Gbx</file>
+		<ident>YnTjg3rPSaDi9ufZmwCYo8vC7ll</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100753.747.Gbx</file>
+		<ident>3QAO01WygcZqtBKS_SBSjg13aih</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (7).Gbx</file>
+		<ident>PlEjicajApAkzkyksWhcaE7irgk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095659.123.Gbx</file>
+		<ident>i8aRADwC9n5QAWtvrzbUSA2EcY8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095552.264.Gbx</file>
+		<ident>rTIduIoIz7n05XgIDNXO4poQQu7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (43).Gbx</file>
+		<ident>wjz_gLttbvesxUvPIrsfTstAsA6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100355.612.Gbx</file>
+		<ident>nmVLU8bppRmV7HXCHnSB0CRKAR2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095317.040.Gbx</file>
+		<ident>1kcTXKJ_wuXo3RYFZRdbfKXz_Kl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095609.560.Gbx</file>
+		<ident>LPtO1QBSzH1o1up7R_oqnOxmOad</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100809.309.Gbx</file>
+		<ident>PtJ_7Ppmmx8iRRmoBfDZc1nsSq9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (61).Gbx</file>
+		<ident>d1RejpqbyuBi9oWQjyk1TtTlbXl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (99).Gbx</file>
+		<ident>8QgirqOdWBqqqzz8uVxaDHt46Al</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100006.360.Gbx</file>
+		<ident>UA6UiVyl_xfviCpPl3VWJaO5Sa1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (91).Gbx</file>
+		<ident>UEcY_HGEWL5FXfntpsbzM3Cwr_m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100815.339.Gbx</file>
+		<ident>UQElsHT4sYyejG3goOKOcQ3Y13l</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (71).Gbx</file>
+		<ident>shfuwS51ZzuGeJx5GDGNt6yeAfl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100626.448.Gbx</file>
+		<ident>v_Q30X3Tsgk3D3fSHq8uGySGKoj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100509.865.Gbx</file>
+		<ident>aQEm_YmLhpJxaXNLi6sHn6vVuNc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100532.634.Gbx</file>
+		<ident>HEC_eWiVveaJALnLgs1tTkX5H3j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100755.897.Gbx</file>
+		<ident>z4T7r5_X70bxSigyWwSDm1pYeU4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100551.592.Gbx</file>
+		<ident>sJw4gVZCwlMEVJn5hGTvym7hue5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095907.832.Gbx</file>
+		<ident>grEmR3HtFkreQUNG0v4rOBGJ3p2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095649.406.Gbx</file>
+		<ident>unTDGhvfFeLhsVXWofJ2BmRLOS9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (73).Gbx</file>
+		<ident>8lRBgupvJfNnwV8CrLz22FLC6Ic</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100216.742.Gbx</file>
+		<ident>bbS3sluYtUUzR1H_7BCFOsBSqN0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100350.253.Gbx</file>
+		<ident>t_vrq0AnpxDmAOEMmnEr5exTFC0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100352.102.Gbx</file>
+		<ident>fJQ_dZlx3hjTZQU1nyVHePIQljh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (31).Gbx</file>
+		<ident>PEqNob5Q3DtfU3Oa4MBCeg1px71</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100417.939.Gbx</file>
+		<ident>jiSqCjPuwxkc11Ys8GrP36uWUB4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095842.834.Gbx</file>
+		<ident>MUfopeSrtoOOvqwaJ1YJ4IyvyBk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095840.808.Gbx</file>
+		<ident>gsKC1HSGlQJguOf1gpaCGmnQJif</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095758.464.Gbx</file>
+		<ident>gsKC1HSGlQJguOf1gpaCGmnQJif</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095657.310.Gbx</file>
+		<ident>z_IKVDi0iraYXdFLFvv0Kitt7q6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095856.175.Gbx</file>
+		<ident>VcmyhkzDURuvWRAClrCKBIhAHXa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095537.066.Gbx</file>
+		<ident>a0XGMsuA5k7rLnLrKdlH1YT3mDf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100609.282.Gbx</file>
+		<ident>QhI1cpoua4loAhfDePTx9SikiFi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095613.728.Gbx</file>
+		<ident>kxhAG2vxKUIx1QrHtRv3C_viQQ5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100304.652.Gbx</file>
+		<ident>zm5U5t5UNYQ4zidR_C_h8vMoWJl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100658.935.Gbx</file>
+		<ident>hG3G0XxwkKBxzztemEr1TlqVob4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100628.148.Gbx</file>
+		<ident>2EePFw7ktcvi_yrvCNn7jRYDWgi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095745.803.Gbx</file>
+		<ident>oAX8FG5KMz5NnCbc0Gvbw4V_K5m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100422.206.Gbx</file>
+		<ident>AzZ0u2miVmsAiZ4cjbbekNF9rta</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100042.146.Gbx</file>
+		<ident>LWm__5LT0zXpoYl15bjHrVNzE75</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095529.630.Gbx</file>
+		<ident>cv60NXkRdXxKHOweamTd5UvANAb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100309.172.Gbx</file>
+		<ident>2lRdsW4Rc20GynnecUOOpUj0ii4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100259.043.Gbx</file>
+		<ident>M24MHhyr_AeUWiHnHuody1rwhY3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095955.697.Gbx</file>
+		<ident>YhIITnn0P1IOiloWW79u_a3J8Ce</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095645.038.Gbx</file>
+		<ident>nPohn2JaM_uqRuEDsvLY3XXrr7k</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095756.358.Gbx</file>
+		<ident>jouqspucE3koZ_GvAIGZn1mOyF2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095517.257.Gbx</file>
+		<ident>TfzWFTBBIlbZ0qULWv7ReeKioEc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100247.547.Gbx</file>
+		<ident>7buPN1QEhTP2KCH5NVv6SSjs4c8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095313.813.Gbx</file>
+		<ident>LU7580WgUEsEwhshj78ygGWF_n8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095850.187.Gbx</file>
+		<ident>9adX1tbDWmSF4tjWyj0O8yB6rq4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100458.104.Gbx</file>
+		<ident>56SvAvp9hCJamLWeHyGfiSJSRL3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095504.428.Gbx</file>
+		<ident>t0we1_PkOSiAyQ5jkTqWGoqIS59</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095359.550.Gbx</file>
+		<ident>HfWJUrNkeqFQhJKQY1IKnjJGOKm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (55).Gbx</file>
+		<ident>19_CdEMEKhzetW1EOCJHkKubTB7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (57).Gbx</file>
+		<ident>PDd5hxyTkvLr7wdUB5tkBsmawLj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095624.388.Gbx</file>
+		<ident>5WN5vS5epSwQr1vY_oG69YUNyw5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100239.360.Gbx</file>
+		<ident>rBAXzUMC_eKjGzjJWoMRTtVQOQm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100619.399.Gbx</file>
+		<ident>tGOsxn6XceNziRw9_zlBiPTt7g3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095325.139.Gbx</file>
+		<ident>NTxweyAFmboWCw03dYX5lVGubx7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100155.971.Gbx</file>
+		<ident>DXJo85HMtslW9IPYu8oS9fLCCni</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100501.491.Gbx</file>
+		<ident>1Fnp92fE3CkMTIKyAmlnxLdCVyb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100711.103.Gbx</file>
+		<ident>lx7lO7rHRptoBaj3PFsKCxjj5ye</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (25).Gbx</file>
+		<ident>tHeN531vUVHiqNSwFarOinyeM8j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100012.323.Gbx</file>
+		<ident>_IKe5My9fNcFqXa4fZry60JVHi2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (97).Gbx</file>
+		<ident>WvyTyoiFENtptVIff_WRQxPjUI8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (96).Gbx</file>
+		<ident>9qOgr1E92bOMj78XvT3VR2jJY5e</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (95).Gbx</file>
+		<ident>C9S4pLuu5TDEWfWFtCJTuD5Lr4h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100120.898.Gbx</file>
+		<ident>rH7t4nh3PHNwmHmev8bp1qPKDH</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095513.164.Gbx</file>
+		<ident>FFvW_7LWhw13XoOSkVCDE7IHAI4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (13).Gbx</file>
+		<ident>2Sq__ZUnJC9vSOy5XbHShfTYi96</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (86).Gbx</file>
+		<ident>OAynwjjkMFGYh1ctr2S6Y3f043h</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (56).Gbx</file>
+		<ident>FyUD1gCn4ABl3Ch7oDBGJqeiOda</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100125.385.Gbx</file>
+		<ident>nvUV6UgAYJq3I96UNM67axYa_9e</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (46).Gbx</file>
+		<ident>9cpIEkeVlGGBcrXAJsWOh7cc6P9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100008.472.Gbx</file>
+		<ident>iLy9_W5k9GIT9Mat7FblExILBO0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100454.316.Gbx</file>
+		<ident>G4MjcldrvT9pOzOe8KorUTqlhY8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100438.181.Gbx</file>
+		<ident>gGkUUHy30saEVLlqLstShDV0DId</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100146.261.Gbx</file>
+		<ident>rr2ZUByOGYPltC86rN52fRO8s4i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100158.055.Gbx</file>
+		<ident>DkthdxZRGVeRxC4PAzyC9Z4fZf3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100323.584.Gbx</file>
+		<ident>c1GihLg_SSC9iCJt7yy3ZM_tlM5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100222.046.Gbx</file>
+		<ident>toMh2pWtTc7beciibEGkAQ9nYWj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100234.904.Gbx</file>
+		<ident>b944qcPR92GTpbAocwoL8aiRSq9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095754.226.Gbx</file>
+		<ident>997VFJSZTtKYzGxvxshf7gGFog1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100621.174.Gbx</file>
+		<ident>5S3V76_csG7_6p2MGMA2nRqhK8g</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100709.225.Gbx</file>
+		<ident>OiTJef57c4vIOD0rWIZc_Ql0Ik8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095651.343.Gbx</file>
+		<ident>fivHtVFAd5JRulN1cwPUwryA629</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095321.114.Gbx</file>
+		<ident>rVb_sZG9OCRUAsDOntrmj4fq382</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (100).Gbx</file>
+		<ident>23qdYcBHkzGGcvMiuGhiIbzq9S6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100228.363.Gbx</file>
+		<ident>gm0CJj0n4Ifnsb6xXYCtAQKR5p7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095930.327.Gbx</file>
+		<ident>sKUnnIrsyxOkyz0isCdm4Q5Lkg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100131.558.Gbx</file>
+		<ident>66LokqGsnMCOS2bLH3VXJUrPRch</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095655.400.Gbx</file>
+		<ident>IHa60LrsEpuOXbCMFQRIg4YYidd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095329.127.Gbx</file>
+		<ident>n8OyDF0fcDr7oVl8HzO_zyOfBdd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100630.149.Gbx</file>
+		<ident>BL9M3jBwHARWDM4A8tUqsoN6t2c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100150.417.Gbx</file>
+		<ident>WNUc8tQs1mg8W6eOa6Vnx1_pkB0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100214.647.Gbx</file>
+		<ident>ThXcypsp9hweXngOHSt6Xzqx6C5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100514.178.Gbx</file>
+		<ident>pB2oCes0vPgIXq_udyCIlLdnRsb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095911.875.Gbx</file>
+		<ident>EbLdeyeviex9RftUHN_67ovPji2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095632.649.Gbx</file>
+		<ident>PdzbADEzf18HarfN0DQ0zTDg7q</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095902.468.Gbx</file>
+		<ident>vZTmQP1Tn3fDNOZuxii5Oe81ZA2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (11).Gbx</file>
+		<ident>RfounRnf1xvRsK6h12Lwo82qs8a</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095909.634.Gbx</file>
+		<ident>owztkHb1KovX5HcJiMaHOTgWW_2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (37).Gbx</file>
+		<ident>4YPyIOXFXmsU_Gk6492hw98CzMf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100410.043.Gbx</file>
+		<ident>8nQdkOzhDJxo04ZVrZGOavHVikc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100605.241.Gbx</file>
+		<ident>FXsXwvwpPgtiROsAqzDPMspoea</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (66).Gbx</file>
+		<ident>Ac9OGSNPpei25q8XYiElLk8bTE6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100430.422.Gbx</file>
+		<ident>3WR7aW0mULf2NrNozMAjuTBCnBh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095407.328.Gbx</file>
+		<ident>KsCh9e6zUcCgNp_d8jtN58oRpBd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (58).Gbx</file>
+		<ident>dGlnHid_o6UHqsq3BQU6VQx6Pb9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (81).Gbx</file>
+		<ident>JzN7OrTF3yLXv2aubBciyg1NnTc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095547.660.Gbx</file>
+		<ident>g5MU5SFIeggbnKeBh6AaK18gPlj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100525.974.Gbx</file>
+		<ident>BH1mzzzH0prDOmFrcSy5XgmvHrl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095544.993.Gbx</file>
+		<ident>ENi6xfx4MJHYnKNAjy4ppVayfT5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100636.851.Gbx</file>
+		<ident>botHge4yVchKnf6URtMNiRlsNhl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100436.147.Gbx</file>
+		<ident>oPFN81moqrQH7dk5k0PF7b1ujQj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100553.494.Gbx</file>
+		<ident>8VIElf9Wwi7LPg8vB5iPCxM5iPl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100257.245.Gbx</file>
+		<ident>0YTsXX4AsHWf4Th_kq4CS5SuZ3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (59).Gbx</file>
+		<ident>L6hsxif6zKb2PYMTSubPO2xARYj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095900.400.Gbx</file>
+		<ident>iixImKQmf7PEC8oMZi1cKCXQ8U3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100528.004.Gbx</file>
+		<ident>y96tMGmnlfBQuSwzpfBvGrYKw32</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100411.858.Gbx</file>
+		<ident>yehZClWzqdleUDmSKZInEFtkxx4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100044.668.Gbx</file>
+		<ident>OBMk42ohraXP3i9C02l_2_ahvEf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100434.232.Gbx</file>
+		<ident>Be5puaKKHBtLKB5pze2UkZ0_Ctc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100642.381.Gbx</file>
+		<ident>aeNf6V0F0VMD3TDV9BdzIgEmWc4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100232.212.Gbx</file>
+		<ident>g2XaHqFdgRN9zaRsrN8HuKud8U5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100538.142.Gbx</file>
+		<ident>X1gNhN3Oz1NKMqA24Vxufhjqoo6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100603.173.Gbx</file>
+		<ident>OHRmrvqm25BdCfKvc2TD0FXF80i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100052.395.Gbx</file>
+		<ident>yG96jrest4ofGf4TNMskhzJ7jqe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100639.905.Gbx</file>
+		<ident>FJoNbh0sHtrP9i7sPlZTQrZanJ9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100010.493.Gbx</file>
+		<ident>H5rul34XFz_XHLUKiD_wot9TnBa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (23).Gbx</file>
+		<ident>paWxSNjh3B8iJ4865_TvSM5kFA1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (30).Gbx</file>
+		<ident>h5SgkmCENQpbUEGaBhPkLoY1B_c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (12).Gbx</file>
+		<ident>h5SgkmCENQpbUEGaBhPkLoY1B_c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (34).Gbx</file>
+		<ident>LbElcst5XQGN0THslaWp4I93zrl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095635.658.Gbx</file>
+		<ident>AEBq2DsmXhIwK4gz6cpo5ZxFEK5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100218.471.Gbx</file>
+		<ident>5bjmNHA26NTAf90CxSfEKZF3vi8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (44).Gbx</file>
+		<ident>H1yqFLePplZ9c6wp5NQI2BMt4k8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095932.339.Gbx</file>
+		<ident>4tjKBEKHsBTSfNX9rkcgZ0TOw35</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100652.078.Gbx</file>
+		<ident>nuazoxqv3kxfEx4_XVOUsNT5mp3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100450.865.Gbx</file>
+		<ident>nCO5HMqReCKGJviteTvsuKgSsE1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (15).Gbx</file>
+		<ident>i6R3f_0jgfIDxnTrCZsQCBQDIHf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095405.448.Gbx</file>
+		<ident>xyh1RnuA8CUod6HmYirgGjjBwz2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (83).Gbx</file>
+		<ident>xyh1RnuA8CUod6HmYirgGjjBwz2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (87).Gbx</file>
+		<ident>zCw6mMHUNYVcKMKvPCZwGhuCa2k</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (27).Gbx</file>
+		<ident>FiEbEmLdIkNzMmhtTcA92_qzxEe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095348.486.Gbx</file>
+		<ident>CWkNBP81QhKJ72QbYkhVkLYnJMi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100343.034.Gbx</file>
+		<ident>i9GHpgGZHoXNsTNs3oa8sOsUZT1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (84).Gbx</file>
+		<ident>nrxTwQZEe6XpDOuLcwTRlewk660</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100230.214.Gbx</file>
+		<ident>oVorT6ST1U0ZKfBiRvABpQnUYj1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (35).Gbx</file>
+		<ident>T6DHGLtMm0BJeYxIiQJHZmy3an3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100505.420.Gbx</file>
+		<ident>f4MCQQoq5Exp9jbci336cecMj5i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (75).Gbx</file>
+		<ident>RhZzcWOzZ5yGjHLUtHYCgQ_7eMk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100523.835.Gbx</file>
+		<ident>rNbdekb3GgkwwlF5pQ4tTKOh1ea</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100543.618.Gbx</file>
+		<ident>GmukW84NXcTTA_yNpmTtBZx85Mi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095526.674.Gbx</file>
+		<ident>uni1FRSCfdQ67lcgKwsl34E8L9f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095904.144.Gbx</file>
+		<ident>m14PEe585wEF7dp4g8HkLRgZVjj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100549.485.Gbx</file>
+		<ident>0m5E1W_Ez6nr4jMovFcInnGYLKa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100058.028.Gbx</file>
+		<ident>rgn6gCESPKc2bmMlN5bcGYFnOvi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095415.946.Gbx</file>
+		<ident>F5QqTI2J9PsBi9mrpPbqb3Gtmoi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095428.939.Gbx</file>
+		<ident>TKmg1IAHKd7pdHM8dcf_hm_u9ki</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100713.127.Gbx</file>
+		<ident>CQmLxOrwr8ptkIv9sH8QfiNMm_n</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100318.090.Gbx</file>
+		<ident>pI_Xv4XQLtNRLjIavQHmlfRh4ae</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100807.252.Gbx</file>
+		<ident>shM6OgvCcCldOJApJcviTyBjmg6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095923.770.Gbx</file>
+		<ident>TyPHJ1lErDh3bfRVRf8P9dNL2xd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095917.914.Gbx</file>
+		<ident>T10k0PTz3WObFrzoGgyqvCuVFqg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095431.352.Gbx</file>
+		<ident>s7UmuVEk2y27ohzi69uwWb1m9v5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095611.666.Gbx</file>
+		<ident>jdXFl0pBrsD2sfkm8czVYpqLFX2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095913.944.Gbx</file>
+		<ident>GO1z6wXDBP6EJzE9zLi1hEYVq9i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095638.829.Gbx</file>
+		<ident>JysnmO9UkgDvDceriBpJSV4vyW0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095619.251.Gbx</file>
+		<ident>yy939F12dViVu5g5hFO8utg8wK2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095728.433.Gbx</file>
+		<ident>TdZ_SaGtBiKHQ5zUv0RiiC_XPR8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (50).Gbx</file>
+		<ident>LF_jvfBe9WygGmMRSuQUKv24mLj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (69).Gbx</file>
+		<ident>TS2L7_vXkIqEoBhvzYw3V81wEC3</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100720.954.Gbx</file>
+		<ident>2rJA0ODIZuWQO_CYHkrF9f421s0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (3).Gbx</file>
+		<ident>r0p6mhgMLc3JxOQcpEXCJ2ISmcl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (5).Gbx</file>
+		<ident>Ol8S16CRHXUmC9U7VMwT8073HJ7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (6).Gbx</file>
+		<ident>Ol8S16CRHXUmC9U7VMwT8073HJ7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100456.360.Gbx</file>
+		<ident>QgsJSZGX_sPyiV4ysNLQaFcnQdm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100723.010.Gbx</file>
+		<ident>VNqVKf016OXXAfQvZQSXcT8WTB4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095357.461.Gbx</file>
+		<ident>9LaVqS307yp8wzGUzuUnWkdNMj2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100601.417.Gbx</file>
+		<ident>2T4aFtdiXvJxZl8P8yNIbb8t83a</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095456.084.Gbx</file>
+		<ident>CuyDaASSlf2JO34QLRNtjAd2d72</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095228.917.Gbx</file>
+		<ident>7Ax5KY8qYNHcJhzdbZlbU0zxHc9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095333.437.Gbx</file>
+		<ident>4f2RapRf6PHzEJKGASfn4q4PqDf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100758.123.Gbx</file>
+		<ident>ntbqiCXQAN_bxKPDTiSwVRZvID8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100316.221.Gbx</file>
+		<ident>AXztRbCD3pCYCm8sDkIkGWpk36</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095418.398.Gbx</file>
+		<ident>Yft7BZh9RVQRj785awduFf1tmj5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095646.883.Gbx</file>
+		<ident>qreZtGiMLL_UE5QXOs7cAGFyjvk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095306.468.Gbx</file>
+		<ident>s5ySyKYS717_083PYGLXEocxmvd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100129.532.Gbx</file>
+		<ident>iwRRFEFW3SeLfhmG2SG3HohFVPe</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100403.226.Gbx</file>
+		<ident>Bpd9PzKtEWZQJMmhtRbCtwP94Nf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100555.201.Gbx</file>
+		<ident>J968ChEivS8syps4RKb1pT30yAm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (28).Gbx</file>
+		<ident>nRGcc5Q0nGorZ4REsbAVb3NxKe2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (77).Gbx</file>
+		<ident>f__cft0zjtz7Q_dk77mKm9rjeHf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095559.832.Gbx</file>
+		<ident>mNijHxNWPQkyW6_Ngka0uOhOLm9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095301.892.Gbx</file>
+		<ident>b8SEFYZcs4mJZNnehcnrSoAsToi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095749.661.Gbx</file>
+		<ident>6RTz9vSLE30Ikr_6LNBNtWVncR1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095304.117.Gbx</file>
+		<ident>yUP5HorFEsQppazhzKHLdN3_QD7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100135.907.Gbx</file>
+		<ident>sfb7zjLmeKl6FZGyCLSEf8zKIYj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100336.851.Gbx</file>
+		<ident>uge0EfuhkyY27W_S5sxpS9ysZCk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100530.578.Gbx</file>
+		<ident>zV4GQBrLz9lzuwxi32zgTXs_oj0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (39).Gbx</file>
+		<ident>f5fFb0QnLaDtwpfed32JHVeX6n</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (60).Gbx</file>
+		<ident>HAP_8EVUhcp4tm4xqz4d4zQQ5k4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (51).Gbx</file>
+		<ident>lrLucRgqxQ5yESnppMKAPRkOR7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100459.775.Gbx</file>
+		<ident>FqdHuIdsTlTQKFux1Ufy45DI279</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (52).Gbx</file>
+		<ident>BGoJ89La2S3GSFK2eBeungkhiVf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100251.951.Gbx</file>
+		<ident>dw3IUryeTYdIGAoYcdjioqFLOW7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (33).Gbx</file>
+		<ident>p8CRzmNAreSrIK2POlMHf_YZw62</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100805.337.Gbx</file>
+		<ident>XHkZ6PFeWWzCd_AeRruy03dhJCl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100819.731.Gbx</file>
+		<ident>OH948QqJDgSAcN4gALLhpicyEH2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100122.988.Gbx</file>
+		<ident>xXp0ioc5YWVtyZSGVJXs5RkgyJ2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100731.454.Gbx</file>
+		<ident>WGGdxsia94oOHLt2VYh6s9wCbIm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100739.854.Gbx</file>
+		<ident>WGGdxsia94oOHLt2VYh6s9wCbIm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100224.295.Gbx</file>
+		<ident>8nkTDhtSXpM_oGXwXYFUviNi6V0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100148.465.Gbx</file>
+		<ident>he0L3W1CKNJSEflnbBOwXvmuHC</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100424.540.Gbx</file>
+		<ident>OiKpbVlx26JIUT0cDi_t2OeCg3e</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (41).Gbx</file>
+		<ident>iGB3wSypVIPF67I9AXK6FwUdCz6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100250.092.Gbx</file>
+		<ident>uihyd9I2h3Ro26XyIWzO4d6SZbk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100301.079.Gbx</file>
+		<ident>Qvf6W_xCoTly37E8puO6td1ixDd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100054.684.Gbx</file>
+		<ident>IvEuRKHeYwLw5ubK9TGBI4Za_re</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (92).Gbx</file>
+		<ident>CTz7q8a9FsQDHEp7S1ghOtS63ci</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095345.436.Gbx</file>
+		<ident>UP4LAhx4UZSkfTgy9x2tvyJfwtg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (76).Gbx</file>
+		<ident>oGdJp2Zbq7YyBKAf7xlTZjK9Gif</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100518.301.Gbx</file>
+		<ident>NwsBtTggmDR0LlzbljXTwvDBOf7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095403.511.Gbx</file>
+		<ident>_283I639AQlxT50MgfPvNnYxQCb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095550.028.Gbx</file>
+		<ident>c3KG9zaf5K0q2Bav4tnv8gZsX3m</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100613.542.Gbx</file>
+		<ident>yIhUHWsj1EcyhEOu2vTkIPkiZAd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095255.090.Gbx</file>
+		<ident>7plIPw3zjVCNrfIgmJCvz2HBeA6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100210.131.Gbx</file>
+		<ident>EOoqt3E6iIKwdbuSDeBA62VdW72</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (94).Gbx</file>
+		<ident>5xTuMukuG04OHpkzF1zG9mUC1uj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (85).Gbx</file>
+		<ident>EJmDDOzriDMTnGN_6DAkBesKd9f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100559.128.Gbx</file>
+		<ident>tbeBZbbK4UIzESunHfiAR88PrNd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100725.006.Gbx</file>
+		<ident>jpmYuWhK3M6iom4uW8OwfvGzKb0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095844.753.Gbx</file>
+		<ident>CrYOhZtoH1TNRJYFNizC5mEpkT1</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (32).Gbx</file>
+		<ident>Rji6HSmLRNXt5T1OrtGj8ByFbub</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (47).Gbx</file>
+		<ident>Xejr6DziEXQZyO2PnX8eFomgV6j</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (14).Gbx</file>
+		<ident>w4MiNT_Aa2Q9QZv2PGJulqV7tg7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095915.895.Gbx</file>
+		<ident>z7KmHNTsA1h_Lp4LUaKaGoC9Trm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100359.339.Gbx</file>
+		<ident>V8iHL75nDEpjzjPiw2MkURwf9Q7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100428.302.Gbx</file>
+		<ident>LMoaGxmvOb2LjGzvjK0MMf99Pd5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095726.030.Gbx</file>
+		<ident>xaKCXvimiCKb_NLaBC1gMvHUZA8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095259.701.Gbx</file>
+		<ident>s_I9bryC7XlQuNn7fZPkQwQJXh4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100516.237.Gbx</file>
+		<ident>FSXKUMyZID2mPMbgLdhJw1CVPv2</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100645.557.Gbx</file>
+		<ident>u5mLHM5qAoNiX_poNMd6UTBu5p6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100440.168.Gbx</file>
+		<ident>C9hv79CzyZuWIarTOXHQcdhsWme</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095230.999.Gbx</file>
+		<ident>khWa6MGdQLK2gGn2H29jeReWKf7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095905.933.Gbx</file>
+		<ident>5GtxTI0FE83DUHxrtJQaU0hEnG0</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100144.110.Gbx</file>
+		<ident>w6UGWSeUk7IHw9QDXCmaG2OIgk7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095605.458.Gbx</file>
+		<ident>6pDc1Z1BDs4JCTjCedjGSfoxjx</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100413.830.Gbx</file>
+		<ident>EC3lGdOB4P8M1rE0n2_wT4jZitd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100703.034.Gbx</file>
+		<ident>ykkGMjDeyzjsfU1Q73aWv9ivEAg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095701.115.Gbx</file>
+		<ident>0Flv9qYgPgU4rE18i0ILD5dAHBf</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095401.503.Gbx</file>
+		<ident>d2H6WfCYMsTKRXObFCZdsScrr4n</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (9).Gbx</file>
+		<ident>N17ILzF9S1msbC4N1totS3sBhp6</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095741.330.Gbx</file>
+		<ident>pHcrmWTl9pXwpTsOuxNG6ZuFeM5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100426.382.Gbx</file>
+		<ident>s6GKQIWZJb4hcgKzkF5HA605ZA8</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095511.423.Gbx</file>
+		<ident>9CGjrHNR9IHU94UHU2l2kF5qe05</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095352.020.Gbx</file>
+		<ident>UAlsLNVea83mwFc0nzKSYqErQVa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (64).Gbx</file>
+		<ident>pA36Uc1jTjXd2JZlNMFSbmRmPLi</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (72).Gbx</file>
+		<ident>DiP8CKxSPrQsLjKGZ8aoMuA2yy4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100207.544.Gbx</file>
+		<ident>HxjMR_JPhZXa88B7snrOHawDDkm</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100033.166.Gbx</file>
+		<ident>itSOSEg8w0fIbwp4hJGhdDYH0Y7</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095226.765.Gbx</file>
+		<ident>EHE5pGPXTR9vX_8oW9lNONI1LK5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095556.067.Gbx</file>
+		<ident>PRQlIl1m5WkqDgyNZcRoSgs6x26</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100556.991.Gbx</file>
+		<ident>M7VXDQuy8yQxpAPobnp5A_C1iu4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095554.232.Gbx</file>
+		<ident>sMXDfotyHx_wjIQz_INkBLc7U2f</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095743.369.Gbx</file>
+		<ident>ngD1_Mfee9YjEsgdAZBb9o9zLni</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100004.052.Gbx</file>
+		<ident>bqx_9WGekwfiI9Mz2Z3tN1bdsa</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095958.069.Gbx</file>
+		<ident>I9PnZgcG7LCDHaMF9AJWlD9kLPh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100802.982.Gbx</file>
+		<ident>hcWGB7O1bUen9SXTOjnHjjnPivk</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100622.971.Gbx</file>
+		<ident>_2au5ca1l3tLm_N4LnCVcLqbz_a</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095444.686.Gbx</file>
+		<ident>R9gUHXt9PjE7cFMa5r1jSTfHMZ4</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095413.704.Gbx</file>
+		<ident>qHAy1K1IFkehuvDcWM_LnR8y8T</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (54).Gbx</file>
+		<ident>yUVguVH_ovAanbV0202dK8r0RVb</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (53).Gbx</file>
+		<ident>sbb5DoT2V56nqX_EezGATkr5H9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (16).Gbx</file>
+		<ident>ZiTKGo7OzDgdJ2uWyaUohDeXjCg</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095935.977.Gbx</file>
+		<ident>Eanz_v8gTgE_ISbKhNrSd82uot5</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100624.851.Gbx</file>
+		<ident>VLrck8Znkutnjl4xBPHGzWoIngh</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095426.823.Gbx</file>
+		<ident>fn8l36rJBshgTYq58IaPGKAphl</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100452.654.Gbx</file>
+		<ident>RHQNiDxzDNRPy99idLVeg1B7vya</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100255.567.Gbx</file>
+		<ident>NtgNJ3Uf7ehejuYEZc_U8qUoHe9</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095928.589.Gbx</file>
+		<ident>FD9cFleHcL5RKv2EnWQQcfqHLkj</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095330.936.Gbx</file>
+		<ident>cA8f92wlQDettjeMK0vIh2W9C73</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T095851.787.Gbx</file>
+		<ident>2H0wvPIJajl7YuqO95Jle0dOA9i</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100357.521.Gbx</file>
+		<ident>oNG4XaprDkHDemplP5BtFOBr9Kc</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (10).Gbx</file>
+		<ident>wzlT_KJ9_J6gkWBksUBRsYH0AKd</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge (21).Gbx</file>
+		<ident>0Ld3pKPAuGHMuQzFD7UgK3bkL_c</ident>
+	</challenge>
+	<challenge>
+		<file>Challenges\Beginner\Challenge - 2022-12-01T100607.400.Gbx</file>
+		<ident>S0xQHdcPNNwBkLB6fFmwtdALIWj</ident>
+	</challenge>
+</playlist>
